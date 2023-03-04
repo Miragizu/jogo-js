@@ -1,12 +1,7 @@
 //Puxando a div tela
-const tela = document.querySelector('.tela');
+tela = document.querySelector('#game');
 
-//Usar o link de HTML
-const getLink = function(complete){
-    return `link rel="import" href="${complete}>"`;
-}
+function exDialogo(){
 
-function exDialogo(){ 
-
-    
+    tela.setAttribute('src', '../modelsHTML/dialogo/dialogo.html');
 }
